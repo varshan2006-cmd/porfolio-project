@@ -1,0 +1,103 @@
+/* style6.css placeholder - Add your 300+ line CSS here */
+body {
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    font-family: 'Comic Neue', cursive;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-wrapper {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.portfolio-name {
+    text-align: center;
+    font-size: 4rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.portfolio-interest {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #4f4f4f;
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-left: 6px solid #ff6f61;
+    padding-left: 10px;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+ul li {
+    background: #fcefee;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 8px 0;
+    transition: transform 0.3s;
+}
+
+ul li:hover {
+    transform: translateX(10px);
+    background-color: #ffdad4;
+}
+
+.portfolio-project-gallery img {
+    width: 30%;
+    margin: 1.5%;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    border: 4px solid #ffe8e5;
+}
+
+.portfolio-project-gallery img:hover {
+    transform: scale(1.07) rotate(3deg);
+}
+
+.portfolio-testimonials blockquote {
+    background: #ffe8e5;
+    padding: 20px;
+    border-left: 6px solid #ff6f61;
+    margin: 20px 0;
+}
+
+.certificates-gallery img {
+    width: 140px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid #ffe8e5;
+    transition: transform 0.4s;
+}
+
+.certificates-gallery img:hover {
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.portfolio-footer a {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #ff6f61;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.portfolio-footer a:hover {
+    background-color: #e35b4f;
+}
